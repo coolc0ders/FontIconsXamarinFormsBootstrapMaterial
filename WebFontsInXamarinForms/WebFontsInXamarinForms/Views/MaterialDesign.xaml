@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Material"
+             x:Class="WebFontsInXamarinForms.Views.MaterialDesign">
+
+    <ContentPage.Content>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <Label Style="{StaticResource MaterialIcons}"
+                   TextColor="Red" Text="&#xf026;" FontSize="100"/>
+            <Label Style="{StaticResource MaterialIcons}"
+                   Grid.Column="0" Grid.Row="1"
+                   Text="&#xf036;" FontSize="100"/>
+            <Label Style="{StaticResource MaterialIcons}"
+                   Grid.Column="0" Grid.Row="2"
+                   Text="&#xf032;" FontSize="100"/>
+            <Label Style="{StaticResource MaterialIcons}"
+                   Grid.Column="1" Grid.Row="0"
+                   Text="&#xf098;" TextColor="Yellow" FontSize="100"/>
+            <Label Style="{StaticResource MaterialIcons}"
+                   Grid.Column="1" Grid.Row="1"
+                   Text="&#xf092;" FontSize="100"/>
+            <Label Style="{StaticResource MaterialIcons}"
+                   Grid.Column="1" Grid.Row="2"
+                   Text="&#xf09e;" TextColor="Gold" FontSize="100"/>
+            <Label Style="{StaticResource MaterialIcons}"
+                   Grid.Column="2" Grid.Row="0"
+                   Text="&#xf116;" TextColor="Green" FontSize="100"/>
+            <Label Style="{StaticResource MaterialIcons}"
+                   Grid.Column="2" Grid.Row="1"
+                   TextColor="Aquamarine"
+                   Text="&#xf11d;" FontSize="100"/>
+            <Label Style="{StaticResource MaterialIcons}"
+                   Grid.Column="2" Grid.Row="2"
+                   Text="&#xf121;" FontSize="100"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
